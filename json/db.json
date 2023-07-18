@@ -1,0 +1,54 @@
+{
+    "Departamentos": [
+        {
+            "id": 1,
+            "nomDepartamento": "Santander"
+        },
+        {
+            "id": 2,
+            "nomDepartamento": "Cundinamarca"
+        }
+    ],
+    "Ciudades": [
+        {
+            "id": 1,
+            "nomCiudad": "Bucaramanga",
+            "DepartamentosId": 1,
+            "imagen": "https://getvico.com/blog/wp-content/uploads/2022/09/Planes-para-hacer-en-Bucaramanga.jpg",
+            "coordenadas": {
+                "lat": 4,
+                "lon": -72
+            }
+        },
+        {
+            "id": 2,
+            "nomCiudad": "Barrancabermeja",
+            "DepartamentosId": 1,
+            "imagen": "https://www.terminaldetransporte.gov.co/wp-content/uploads/2022/06/barrancabermeja_nota.jpg",
+            "coordenadas": {
+                "lat": 4,
+                "lon": -72
+            }
+        },
+        {
+            "id": 3,
+            "nomCiudad": "Bogotá",
+            "DepartamentosId": 2,
+            "imagen": "https://www.cepal.org/sites/default/files/styles/1920x1080/public/regionaloffice/images/bogota.jpg?itok=o3kfQd06",
+            "coordenadas": {
+                "lat": 4,
+                "lon": -72
+            }
+        },
+        {
+            "id": 4,
+            "nomCiudad": "Cajicá",
+            "DepartamentosId": 2,
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/14/Catedral-Cajica-Cund%28Col%29.JPG",
+            "coordenadas": {
+                "lat": 4,
+                "lon": -72
+            }
+        }
+    ]
+}
